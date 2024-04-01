@@ -15,6 +15,7 @@ const AddItem = ({getValuesFromList}) => {
       todoEndTime : endTime
     }
     getValuesFromList(items);
+    console.log(items);
   }
 
   return (
